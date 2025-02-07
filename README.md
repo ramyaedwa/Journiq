@@ -15,15 +15,14 @@ Folder Structure
 bash
 Copy
 Edit
-/ai-travel-planner
-│── /src
-│   ├── /components    # Reusable UI components
-│   ├── /screens       # Different app screens (Home, Search, Itinerary)
-│   ├── /services      # API handlers (Flights, Hotels, AI Chatbot)
-│   ├── /navigation    # React Navigation setup
-│   ├── /utils         # Helper functions
-│── App.js             # Entry point
-│── package.json       # Dependencies
+/ai-travel-planner /src
+/components    # Reusable UI components
+/screens       # Different app screens (Home, Search, Itinerary)
+ /services      # API handlers (Flights, Hotels, AI Chatbot)
+ /navigation    # React Navigation setup
+   /utils         # Helper functions
+ App.js             # Entry point
+ package.json       # Dependencies
 Next Steps
 Would you like a basic UI template for the app to get started?
 Do you need help with API integration for flights and hotels?
