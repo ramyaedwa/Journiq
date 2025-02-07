@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. AI-Powered Itinerary Generator
+Use OpenAI API to suggest trip itineraries based on user preferences.
+Store preferences (e.g., adventure, relaxation, food, culture) in AsyncStorage.
+2. Flight & Hotel Booking
+Fetch real-time data using Skyscanner API or Amadeus API.
+3. Maps & Location Services
+Use Google Maps API for navigation.
+Expo Location for real-time geolocation.
+4. Weather Updates
+Integrate OpenWeather API to show weather forecasts for destinations.
+5. Budget Tracker
+Allow users to set and track expenses.
+Use local SQLite or Firebase for data storage.
+Folder Structure
+bash
+Copy
+Edit
+/ai-travel-planner
+│── /src
+│   ├── /components    # Reusable UI components
+│   ├── /screens       # Different app screens (Home, Search, Itinerary)
+│   ├── /services      # API handlers (Flights, Hotels, AI Chatbot)
+│   ├── /navigation    # React Navigation setup
+│   ├── /utils         # Helper functions
+│── App.js             # Entry point
+│── package.json       # Dependencies
+Next Steps
+Would you like a basic UI template for the app to get started?
+Do you need help with API integration for flights and hotels?
+Let me know how you'd like to proceed! 🚀
